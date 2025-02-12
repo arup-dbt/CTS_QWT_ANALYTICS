@@ -1,0 +1,8 @@
+version: 2
+ 
+models:
+  - name: stg_customers
+    description: "stage customers data loaded from raw_customers"
+    columns:
+      - name: customerid
+        description: "unique identifier to address each customer in the table"
